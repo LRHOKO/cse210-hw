@@ -63,6 +63,7 @@ class Journal
             Console.WriteLine($"Date: {entry.Date}\nPrompt: {entry.Prompt}\nResponse: {entry.Response}\nMood Rating: {entry.MoodRating}/10\n");
         }
     }
+    
     public void SaveJournal()
     {
         Console.Write("Enter filename to save journal: ");
